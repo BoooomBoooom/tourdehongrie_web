@@ -74,10 +74,14 @@ input[type=range]{
 
 .row {
     border-radius: 50px;
-    background-image: url(fatyol.png);
+    background-image: url('kepek/fatyol.png');
     margin-inline: 20px;
 }
 
 q {
     font-style: italic;
+}
+
+b {
+    font-style: bold;
 }
