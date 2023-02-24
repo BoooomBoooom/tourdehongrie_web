@@ -1,31 +1,33 @@
-body{
+body {
     margin: 0px 20px;
     color: navy;
     background-image: url('kepek/hatter1.png');
 }
 
-h2{
+h2 {
     padding: 65px 0px 10px;
+    font-weight: bold;
 }
 
-p{
+p {
     text-indent: 25px;
 }
 
-li p{
+li p {
     text-indent: 0px;
     padding: 0px;
     margin: 10px 15px;
 }
 
-.kiskep  {
+.kiskep {
     max-width: 95%;
     padding: 0px;
     margin: 15px 5px 0px;
     border: 3px solid navy;
+    border-radius: 15px;
 }
 
-.kepfelirat{
+.kepfelirat {
     font-size: 75%;
     font-style: italic;
     padding: 0px;
@@ -41,7 +43,7 @@ ol li {
     margin: 20px;
 }
 
-ol li p{
+ol li p {
     border-left: 3px solid navy;
     padding: 0px 5px;
     margin: 0px;
@@ -70,10 +72,12 @@ input[type=range]{
     margin: 10px;
 }
 
-.row{
+.row {
     border-radius: 50px;
+    background-image: url(fatyol.png);
+    margin-inline: 20px;
 }
 
-q{
+q {
     font-style: italic;
 }
